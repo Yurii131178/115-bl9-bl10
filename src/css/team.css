@@ -61,7 +61,6 @@
 @media screen and (min-width: 768px) {
   .team {
     padding: 48px 30px 59px;
-    flex-direction: row;
   }
 
   .team-container {
