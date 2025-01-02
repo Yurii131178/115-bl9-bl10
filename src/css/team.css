@@ -1,3 +1,7 @@
+:root {
+  --cubic-bezier: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .team {
   background-color: #fff;
   display: flex;
@@ -94,9 +98,39 @@
     padding: 49px 30px 59px;
   }
 
+  .team-member-name {
+    margin-top: 11px;
+  }
+
   .team-text {
     margin: 34px 0 45px;
     font-size: 18px;
     line-height: 1.56444;
+  }
+
+  .team-list {
+    gap: 16px;
+  }
+
+  .team-member-img-bg {
+    box-shadow: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 428px;
+    height: 286px;
+  }
+
+  .team-member:hover .team-member-img {
+    width: 428px;
+    height: 286px;
+    object-fit: cover;
+    opacity: 0.4;
+  }
+
+  .team-member:hover .team-member-img-bg {
+    background-color: rgba(0, 0, 0, 1);
+    box-shadow: 2px 2px 12px 2px rgba(0, 0, 0, 0.4);
+    transition: 250ms var(--cubic-bezier);
   }
 }
