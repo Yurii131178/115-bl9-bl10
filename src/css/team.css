@@ -98,6 +98,18 @@
   transition: transform 250ms var(--cubic-bezier);
 }
 
+.team-member-social-list {
+  display: flex;
+  align-items: flex-start;
+  gap: 25px;
+}
+
+.team-member-social-icon {
+}
+.social-icon-svg {
+  fill: #fff;
+}
+
 @media screen and (min-width: 768px) {
   .team {
     padding: 48px 30px 59px;
