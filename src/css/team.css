@@ -47,6 +47,10 @@
   gap: 10px;
 }
 
+.team-member-overlay {
+  display: none;
+}
+
 .team-member-name {
   margin-top: 15px;
   font-weight: 400;
@@ -138,10 +142,6 @@
   .team-member-img.bg {
     position: relative;
     overflow: hidden;
-  }
-
-  .team-member-overlay {
-    display: none;
   }
 
   .team-member:hover .team-member-overlay {
