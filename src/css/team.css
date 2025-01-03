@@ -106,22 +106,18 @@
   .team-container {
     max-width: 625px;
   }
-
   .team-list {
     display: flex;
     flex-direction: row;
     gap: 20px;
   }
-
   .team-title {
     font-size: 20px;
     line-height: 1.64736;
   }
-
   .team-subtitle {
     margin-top: 16px;
   }
-
   .team-text {
     margin: 34px 0 49px;
     font-size: 17px;
