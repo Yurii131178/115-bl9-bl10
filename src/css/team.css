@@ -49,6 +49,7 @@
 
 .team-member-overlay {
   display: none;
+  line-height: 0;
 }
 
 .team-member-name {
