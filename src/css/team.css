@@ -1,15 +1,22 @@
+:root {
+  --cubic-bezier: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .team {
   background-color: #fff;
   display: flex;
   flex-wrap: wrap;
+  flex-direction: column;
   align-items: center;
-  max-width: 320px;
+  justify-content: center;
   padding: 50px 20px;
   margin: 0 auto;
 }
 
 .team-container {
-  width: 100%;
+  display: flex;
+  flex-direction: column;
+  max-width: 220px;
 }
 
 .team-title {
@@ -40,6 +47,11 @@
   gap: 10px;
 }
 
+.team-member-overlay {
+  display: none;
+  line-height: 0;
+}
+
 .team-member-name {
   margin-top: 15px;
   font-weight: 400;
@@ -55,10 +67,57 @@
   text-align: center;
 }
 
+.team-member-img-bg {
+  box-shadow: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.team-member:hover .team-member-img {
+  object-fit: cover;
+  opacity: 0.4;
+}
+
+.team-member:hover .team-member-img-bg {
+  background-color: rgba(0, 0, 0, 1);
+  box-shadow: 2px 2px 12px 2px rgba(0, 0, 0, 0.4);
+  scale: 1.02;
+  transition: 250ms var(--cubic-bezier);
+}
+
+.team-member-img.bg {
+  position: relative;
+  overflow: hidden;
+}
+
+.team-member:hover .team-member-overlay {
+  display: flex;
+  color: #fff;
+  position: absolute;
+  transition: transform 250ms var(--cubic-bezier);
+}
+
+.team-member-social-list {
+  display: flex;
+  align-items: flex-start;
+  gap: 25px;
+}
+
+.team-member-social-icon {
+}
+.social-icon-svg {
+  fill: #fff;
+}
+
 @media screen and (min-width: 768px) {
   .team {
-    max-width: 768px;
     padding: 48px 30px 59px;
+  }
+
+  .team-container {
+    max-width: 625px;
   }
 
   .team-list {
@@ -74,21 +133,21 @@
 
   .team-subtitle {
     margin-top: 16px;
-    font-weight: 300;
-    font-size: 38px;
-    line-height: 1.26316;
   }
+
   .team-text {
     margin: 34px 0 49px;
-    font-weight: 400;
     font-size: 17px;
     line-height: 1.65647;
   }
+
+  .team-member-name {
+    margin-top: 14px;
+  }
 }
 
-@media screen and (min-width: 1158px) {
+@media screen and (min-width: 1360px) {
   .team {
-    max-width: 1360px;
     padding: 49px 30px 59px;
   }
 
@@ -96,5 +155,8 @@
     margin: 34px 0 45px;
     font-size: 18px;
     line-height: 1.56444;
+  }
+  .team-member-name {
+    margin-top: 13px;
   }
 }
