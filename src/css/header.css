@@ -89,9 +89,6 @@ a {
   line-height: 1.6;
   color: #fff;
 }
-/* .nav-item {
-  width: calc((100% - 46px) / 4);
-} */
 @media screen and (min-width: 768px) {
   .container {
     padding-left: 41px;
