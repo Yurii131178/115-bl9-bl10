@@ -56,6 +56,7 @@ a {
   height: 100%;
 }
 .icon-logo-svg {
+  fill: #28a745;
   display: flex;
   align-items: center;
   justify-content: center;
