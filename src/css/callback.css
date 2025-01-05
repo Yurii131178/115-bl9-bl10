@@ -123,4 +123,11 @@
     width: 620px;
     padding: 78px 30px 82px;
   }
+  .form-user-input {
+    max-width: 620px;
+  }
+
+  .form-button {
+    width: 620px;
+  }
 }
