@@ -39,7 +39,7 @@
 
 .footer-svg {
   fill: #fff;
-  transition: fill 0.3s ease;
+  transition: fill 250ms;
   
 }
 
@@ -61,7 +61,7 @@
 
   .footer-lu {
     gap: 15px;
-    
+    display: flex;
   }
 
   .footer-a {
