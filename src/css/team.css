@@ -6,15 +6,17 @@
   background-color: #fff;
   display: flex;
   flex-wrap: wrap;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 50px 0 50px;
+  padding: 50px 20px;
+  margin: 0 auto;
 }
 
 .team-container {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  max-width: 220px;
 }
 
 .team-title {
@@ -30,16 +32,13 @@
   font-size: 38px;
   line-height: 1.26316;
   text-align: center;
-  max-width: 220px;
 }
-
 .team-text {
   margin: 35px 0 37px;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.6;
   text-align: center;
-  max-width: 207px;
 }
 
 .team-list {
@@ -50,7 +49,6 @@
 
 .team-member-overlay {
   display: none;
-  line-height: 0;
 }
 
 .team-member-name {
@@ -100,19 +98,13 @@
   transition: transform 250ms var(--cubic-bezier);
 }
 
-.team-member-social-list {
-  display: flex;
-  align-items: flex-start;
-  gap: 25px;
-}
-
-.social-icon-svg {
-  fill: #fff;
-}
-
 @media screen and (min-width: 768px) {
   .team {
-    padding: 48px 0 59px;
+    padding: 48px 30px 59px;
+  }
+
+  .team-container {
+    max-width: 625px;
   }
 
   .team-list {
@@ -128,14 +120,12 @@
 
   .team-subtitle {
     margin-top: 16px;
-    min-width: 410px;
   }
 
   .team-text {
     margin: 34px 0 49px;
     font-size: 17px;
     line-height: 1.65647;
-    min-width: 625px;
   }
 
   .team-member-name {
@@ -145,7 +135,7 @@
 
 @media screen and (min-width: 1360px) {
   .team {
-    padding: 49px 0 59px;
+    padding: 49px 30px 59px;
   }
 
   .team-text {
