@@ -1,7 +1,4 @@
-/* @media screen and (max-width: 767.98px) {
-} */
-
-.callback {
+.container {
   max-width: 320px;
   display: flex;
   flex-direction: column;
@@ -9,7 +6,7 @@
   background: fixed;
   top: 0;
   left: 0;
-  width: 100;
+  /* width: 100%; */
   margin-left: auto;
   margin-right: auto;
 }
@@ -66,7 +63,7 @@
 /* ===========TAB================ */
 
 @media screen and (min-width: 768px) {
-  .callback {
+  .container {
     max-width: 768px;
     max-height: 349px;
     display: flex;
@@ -99,7 +96,7 @@
 /* ===========DESKTOP================ */
 
 @media screen and (min-width: 1360px) {
-  .callback {
+  .container {
     max-width: 1360px;
   }
 
@@ -110,6 +107,7 @@
 
   .callback-form-container {
     width: 620px;
+    height: 460px;
     padding: 78px 30px 82px;
   }
   .form-user-input {
