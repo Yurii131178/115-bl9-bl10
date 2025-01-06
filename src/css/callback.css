@@ -1,5 +1,5 @@
-@media screen and (max-width: 767.98px) {
-}
+/* @media screen and (max-width: 767.98px) {
+} */
 
 .callback {
   max-width: 320px;
@@ -18,9 +18,6 @@
   height: 220px;
 }
 
-/* mobile!!! */
-
-/* form */
 .callback-form-container {
   width: 260px;
   height: auto;
@@ -43,14 +40,6 @@
   flex-direction: column;
   gap: 36px;
 }
-
-/* .callback-form {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 36px;
-} */
 
 .form-user-input {
   display: block;
