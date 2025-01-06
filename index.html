@@ -12,7 +12,7 @@
       rel="stylesheet"
     />
     <script type="module" crossorigin src="/115-bl9-bl10/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/115-bl9-bl10/assets/index-DhfkmhNQ.css">
+    <link rel="stylesheet" crossorigin href="/115-bl9-bl10/assets/index-32cvdxyh.css">
   </head>
   <body>
     <header class="header">
@@ -568,57 +568,51 @@
 </section>
 
       <section class="callback">
-  <div class="div-call">
+  <div class="callback-picture-conatiner">
     <picture>
       <source
-        srcset="/115-bl9-bl10/assets/desk-rectangle-Bm2GMtDa.jpg 1x, /115-bl9-bl10/assets/desk-rectangle@2-CaLY3ZZQ.jpg 2x"
         media="(min-width: 1360px)"
-        width="680"
-        height="460"
+        srcset="../img/callback-section/desk-callback.jpg 1x, ../img/callback-section/desk-callback@2.jpg 2x"
       />
       <source
-        srcset="/115-bl9-bl10/assets/tab-rectangle-DU_9ACXK.jpg 1x, /115-bl9-bl10/assets/tab-rectangle@2-BbbRzlkO.jpg 2x"
         media="(min-width: 768px)"
-        width="384"
-        height="349"
+        srcset="../img/callback-section/tab-callback.jpg 1x, ../img/callback-section/tab-callback@2.jpg 2x"
       />
       <source
-        srcset="/115-bl9-bl10/assets/tel-rectangle-Plz3ED9G.jpg 1x, /115-bl9-bl10/assets/tel-rectangle@2-k1MxJiPa.jpg 2x"
-        media="(max-width: 767px)"
-        width="320"
-        height="220"
+        media="(max-width: 767.98px)"
+        srcset="../img/callback-section/mob-callback.jpg 1x, ../img/callback-section/mob-callback@2.jpg 2x"
       />
       <img
-        src="/115-bl9-bl10/assets/tel-rectangle-Plz3ED9G.jpg"
-        alt="Request Callback"
+        src="../img/callback-section/mob-callback.jpg"
+        alt="a man at the desk"
       />
     </picture>
   </div>
-  <form class="form">
-    <div class="form-div">
-      <h2 class="call-h">Request Callback</h2>
-    </div>
-    <div class="input-lb">
-      <label for="name" class="label-name">
+  <div class="callback-form-container">
+    <p class="callback-form-paragraph">Request Callback</p>
+    <form class="callback-form">
+      <div class="form-wrapper-container">
         <input
+          class="form-user-input"
           type="text"
-          id="name"
+          id="user-name"
+          name="user-name"
           placeholder="Enter your name"
-          name="name"
+          pattern="[a-zA-Z-яА-ЯіІїЇєЄґҐʼ]+"
         />
-      </label>
-      <label for="email" class="label-email">
+
         <input
+          class="form-user-input"
           type="email"
-          id="email"
-          class="email-marg"
+          id="form-user-email"
+          name="user-email"
           placeholder="Enter email*"
-          name="email"
+          required
         />
-      </label>
-    </div>
-    <div class="btn-div"><button type="submit" class="btn">Send</button></div>
-  </form>
+      </div>
+      <button type="submit" class="form-button">Send</button>
+    </form>
+  </div>
 </section>
 
     </main>
