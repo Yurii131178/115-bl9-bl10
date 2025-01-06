@@ -49,6 +49,7 @@
 
 .team-member-overlay {
   display: none;
+  line-height: 0;
 }
 
 .team-member-name {
@@ -104,8 +105,6 @@
   gap: 25px;
 }
 
-.team-member-social-icon {
-}
 .social-icon-svg {
   fill: #fff;
 }
