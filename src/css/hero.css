@@ -1,64 +1,122 @@
+* {
+  font-family: 'Open Sans', sans-serif;
+  color: #e9e9e9;
+}
+.wrapper {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../img/header-background/header_background_mobile@1x.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .hero {
-  width: 320px;
-  margin: 0 auto;
-  height: auto;
-  color: #fff;
+  background-color: transparent;
 }
-
-.hero-subtitle {
-  text-align: center;
-}
-
-.hero-container {
-  padding-top: 120px;
-  height: 533px; /* 553px minus header padding-top 20px*/
+.container-hero {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url(/img//header-background/header_background_mobile@1x.jpg);
-
-  background-repeat: no-repeat;
-  background-position: bottom center;
-  background-size: 100%;
-  margin-left: auto;
-  margin-right: auto;
+  height: 533px;
 }
+.title-hero {
+  font-weight: 300;
+  font-size: 52px;
+  line-height: 1.26923;
+  text-align: center;
+  margin-top: 44px;
+  margin-bottom: 16px;
+}
+.description-hero {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 1.67273;
+  text-align: center;
+  margin-bottom: 36px;
+}
+.btn-hero {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
 
+  border-radius: 5px;
+  width: 156px;
+  height: 45px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+  fill: #e9e9e9;
+  background-color: #28a745;
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.icon-btn {
+  display: flex;
+  width: 9px;
+  height: 18px;
+}
+@media screen and (min-width: 320px) and (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .wrapper {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url(../img/header-background/header_background_mobile@2x.jpg);
+  }
+}
 @media screen and (min-width: 768px) {
-  .hero {
-    min-width: 768px;
+  .container-hero {
+    height: 1024px;
   }
-  .hero-container {
-    height: 1007px;
+  .title-hero {
+    font-size: 55px;
+    line-height: 1.2;
+    margin-top: 353px;
+    margin-bottom: 25px;
+  }
+  .description-hero {
+    margin-bottom: 29px;
+  }
+  .btn-hero {
+    width: 165px;
+    height: 48px;
+    font-size: 18px;
+    line-height: 1.56444;
+  }
+  .wrapper {
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-      url(/img//header-background/header_background_tablet@1x.jpg);
-
-    background-repeat: no-repeat;
-    background-position: bottom center;
-    background-size: 100%;
-    margin-left: auto;
-    margin-right: auto;
+      url(../img/header-background/header_background_tablet@1x.jpg);
   }
 }
-
-@media screen and (min-width: 1360px) {
-  .hero {
-    min-width: 1360px;
-  }
-  .hero-container {
-    height: 749px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+@media screen and (min-width: 768px) and (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .wrapper {
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-      url(/img//header-background/header_background_desktop@1x.jpg);
-
-    background-repeat: no-repeat;
-    background-position: bottom center;
-    background-size: 100%;
-    margin-left: auto;
-    margin-right: auto;
+      url(../img/header-background/header_background_tablet@2x.jpg);
+  }
+}
+@media screen and (min-width: 1360px) {
+  .container-hero {
+    height: 768px;
+  }
+  .title-hero {
+    font-size: 55px;
+    line-height: 1.2;
+    margin-top: 209px;
+  }
+  .description-hero {
+    margin-bottom: 39px;
+  }
+  .wrapper {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url(../img/header-background/header_background_desktop@1x.jpg);
+  }
+}
+@media screen and (min-width: 1360px) and (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .wrapper {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url(../img/header-background/header_background_desktop@2x.jpg);
   }
 }
