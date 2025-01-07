@@ -1,7 +1,7 @@
 .blog {
   box-sizing: border-box;
   margin: 0 auto;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   color: #fff;
 }
@@ -21,7 +21,7 @@
 }
 
 .blog-container {
-  display: flex;  
+  display: flex;
 }
 
 .blog-img {
@@ -75,12 +75,11 @@
     max-width: 260px;
   }
 }
-        
 
 @media screen and (min-width: 768px) {
-    .blog-container {
-      justify-content: center;
-    }
+  .blog-container {
+    justify-content: center;
+  }
   .blog-img {
     width: 384px;
     height: 468px;
@@ -102,7 +101,6 @@
     line-height: 1.56;
     margin-bottom: 20px;
     width: 315px;
-
   }
   .blog-button {
     width: 196px;
