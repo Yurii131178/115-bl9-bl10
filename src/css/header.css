@@ -16,34 +16,21 @@ a {
   text-decoration: none;
   display: block;
 }
-.container {
-  margin: 0 auto;
-  max-width: 320px;
-  height: auto;
-  padding-left: 28px;
+
+.header-container {
   padding-top: 20px;
   padding-right: 19px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  position: absolute;
 }
-@media screen and (min-width: 768px) {
-  .container {
-    max-width: 768px;
-  }
-}
-@media screen and (min-width: 1360px) {
-  .container {
-    max-width: 1360px;
-  }
-}
-.header {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 400;
-  /* background: #452345; */
-}
+
 .logo-part {
   font-size: 32px;
   line-height: 1.32;
   color: #28a745;
 }
+
 .logo-header {
   font-size: 32px;
   line-height: 1.32;
@@ -54,6 +41,7 @@ a {
   justify-content: center;
   width: 100%;
   height: 100%;
+  padding-bottom: 12px;
 }
 .icon-logo-svg {
   fill: #28a745;
@@ -64,11 +52,7 @@ a {
   height: 35px;
   margin-right: 5.69px;
 }
-.header-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
+
 .header-nav {
   display: flex;
   flex-direction: column;
@@ -79,29 +63,29 @@ a {
   display: flex;
   flex-direction: row;
   gap: 13px;
-  margin-top: auto;
+  /* margin-top: auto; */
   align-items: center;
   justify-content: center;
 }
 .nav-link {
-  font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.6;
   color: #fff;
 }
 @media screen and (min-width: 768px) {
-  .container {
+  .header-container {
     padding-left: 41px;
-    padding-top: 11px;
+    padding-top: 17px;
     padding-right: 37px;
   }
+
   .header-nav {
     flex-direction: row;
   }
   .logo-header {
     margin-right: 65px;
-
+    padding-bottom: 0;
     font-size: 35px;
     line-height: 1.20686;
   }
@@ -114,18 +98,19 @@ a {
     margin-top: 0px;
   }
   .nav-link {
-    font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     font-size: 18px;
     line-height: 1.5644;
   }
 }
+
 @media screen and (min-width: 1360px) {
-  .container {
+  .header-container {
+    padding-top: 19px;
+    padding-right: 46px;
     padding-left: 49px;
-    padding-top: 11px;
-    padding-right: 37px;
   }
+
   .logo-header {
     margin-right: 557px;
   }
