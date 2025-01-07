@@ -4,20 +4,50 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/115-bl9-bl10/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vanilla App Template</title>
+    <title>115-bl9-bl10</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300..400&display=swap"
+      rel="stylesheet"
+    />
     <script type="module" crossorigin src="/115-bl9-bl10/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/115-bl9-bl10/assets/index-BvyJX9Ik.css">
+    <link rel="stylesheet" crossorigin href="/115-bl9-bl10/assets/index-B4sreI2Z.css">
   </head>
   <body>
     <header class="header">
-  <p>header</p>
+  <div class="container header-container">
+    <nav class="header-nav">
+      <a class="logo-header" href="../index.html">
+        <svg class="icon-logo-svg" width="40" height="31">
+          <use href="/115-bl9-bl10/assets/sprite-y8FAbQ-H.svg#icon-logo-book-header"></use>
+        </svg>
+        <span class="logo-part"> Finance </span>Ledger
+      </a>
+      <ul class="nav-list">
+        <li class="nav-item">
+          <a href="../index.html" class="nav-link">Home</a>
+        </li>
+        <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Cases</a></li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">Blog</a>
+        </li>
+        <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
 </header>
 
 
     <main>
       <!-- Loads the specified .html file -->
       <section class="hero">
-  <p>hero</p>
+  <div class="hero-container">
+    <h1>The Sky Is The Limit</h1>
+    <h2>We provide world class financial assistance</h2>
+    <p>Read More</p>
+  </div>
 </section>
 
       <section class="about">
@@ -317,17 +347,17 @@
     <picture>
       <source
         media="(min-width: 1360px)"
-        srcset="/115-bl9-bl10/assets/blog-CIBtxXko.jpg 1x, /115-bl9-bl10/assets/blog@2x-CAQ59Xx8.jpg 2x"
+        srcset="../img/blog-section/blog.jpg 1x, ../img/blog-section/blog@2x.jpg 2x"
       />
       <source
         media="(min-width: 768px)"
-        srcset="/115-bl9-bl10/assets/blog-tbl-CQolhcLs.jpg 1x, /115-bl9-bl10/assets/blog-tbl@2x-C4XK37cl.jpg 2x"
+        srcset="../img/blog-section/blog-tbl.jpg 1x, ../img/blog-section/blog-tbl@2x.jpg 2x"
       />
       <source
         media="(max-width: 767px)"
-        srcset="/115-bl9-bl10/assets/blog-mob-DtK96Z-L.jpg 1x, /115-bl9-bl10/assets/blog-mob@2x-C86vsU5t.jpg 2x"
+        srcset="../img/blog-section/blog-mob.jpg 1x, ../img/blog-section/blog-mob@2x.jpg 2x"
       />
-      <img src="/115-bl9-bl10/assets/blog-CIBtxXko.jpg" alt="blog-img" class="blog-img" />
+      <img src="../img/blog-section/blog.jpg" alt="blog-img" class="blog-img" />
     </picture>
   </div>
 </section>
@@ -340,161 +370,248 @@
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto,
       sapiente!
     </p>
-  </div>
-  <ul class="team-list">
-    <li class="team-member">
-      <div class="team-member-img-bg">
-        <picture>
-          <source
-            srcset="/115-bl9-bl10/assets/desk-president-DqNzDb_j.jpg, /115-bl9-bl10/assets/desk-president@2-CN3ZspyT.jpg 2x"
-            media="(min-width: 1360px)"
-            width="420"
-            height="280"
-          />
-          <source
-            srcset="/115-bl9-bl10/assets/tab-president-DuH1p0zT.jpg, /115-bl9-bl10/assets/tab-president@2-BM4FUAsH.jpg 2x"
-            media="(min-width: 768px)"
-            width="223"
-            height="148"
-          />
-          <source
-            srcset="/115-bl9-bl10/assets/mob-president-B4LnWxn-.jpg, /115-bl9-bl10/assets/mob-president@2-DRYGxzLy.jpg 2x"
-            media="(max-width: 767px)"
-            width="280"
-            height="186"
-          />
-          <img
-            class="team-member-img"
-            src="/115-bl9-bl10/assets/mob-president-B4LnWxn-.jpg"
-            alt="President"
-          />
-        </picture>
-        <p class="team-member-overlay">social icons</p>
-      </div>
+    <ul class="team-list">
+      <li class="team-member">
+        <div class="team-member-img-bg">
+          <picture>
+            <source
+              srcset="/115-bl9-bl10/assets/desk-president-DqNzDb_j.jpg, /115-bl9-bl10/assets/desk-president@2-CN3ZspyT.jpg 2x"
+              media="(min-width: 1360px)"
+              width="420"
+              height="280"
+            />
+            <source
+              srcset="/115-bl9-bl10/assets/tab-president-DuH1p0zT.jpg, /115-bl9-bl10/assets/tab-president@2-BM4FUAsH.jpg 2x"
+              media="(min-width: 768px)"
+              width="223"
+              height="148"
+            />
+            <source
+              srcset="/115-bl9-bl10/assets/mob-president-B4LnWxn-.jpg, /115-bl9-bl10/assets/mob-president@2-DRYGxzLy.jpg 2x"
+              media="(max-width: 767px)"
+              width="280"
+              height="186"
+            />
+            <img
+              class="team-member-img"
+              src="/115-bl9-bl10/assets/mob-president-B4LnWxn-.jpg"
+              alt="President"
+            />
+          </picture>
+          <div class="team-member-overlay">
+            <ul class="team-member-social-list">
+              <li class="team-member-social-icon">
+                <a href="">
+                  <svg height="35" width="35" class="social-icon-svg">
+                    <use href="/115-bl9-bl10/assets/social-CWY5Rgt1.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="team-member-social-icon">
+                <a href="">
+                  <svg height="35" width="35" class="social-icon-svg">
+                    <use href="/115-bl9-bl10/assets/social-CWY5Rgt1.svg#icon-twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="team-member-social-icon">
+                <a href="">
+                  <svg height="40" width="35" class="social-icon-svg">
+                    <use href="/115-bl9-bl10/assets/social-CWY5Rgt1.svg#icon-youtube"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="team-member-social-icon">
+                <a href="">
+                  <svg height="31" width="35" class="social-icon-svg">
+                    <use href="/115-bl9-bl10/assets/social-CWY5Rgt1.svg#icon-linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
 
-      <div class="team-member-card">
-        <p class="team-member-name">John Doe</p>
-        <p class="team-member-role">President</p>
-      </div>
-    </li>
-    <li class="team-member">
-      <div class="team-member-img-bg">
-        <picture>
-          <source
-            srcset="/115-bl9-bl10/assets/desk-vice-president-BjA-NBLS.jpg, /115-bl9-bl10/assets/desk-vice-president@2-Agxs-lfV.jpg 2x"
-            media="(min-width: 1360px)"
-            width="420"
-            height="280"
-          />
-          <source
-            srcset="/115-bl9-bl10/assets/tab-vice-president-BT3IjVqL.jpg, /115-bl9-bl10/assets/tab-vice-president@2-CT9njGNH.jpg 2x"
-            media="(min-width: 768px)"
-            width="223"
-            height="148"
-          />
-          <source
-            srcset="/115-bl9-bl10/assets/mob-vice-president-D_W8BYli.jpg, /115-bl9-bl10/assets/mob-vice-president@2-CmIX2oEO.jpg 2x"
-            media="(max-width: 767px)"
-            width="280"
-            height="186"
-          />
-          <img
-            class="team-member-img"
-            src="/115-bl9-bl10/assets/mob-vice-president-D_W8BYli.jpg"
-            alt="Vice President"
-          />
-        </picture>
-        <p class="team-member-overlay">social icons</p>
-      </div>
-      <div class="team-member-card">
-        <p class="team-member-name">Jane Doe</p>
-        <p class="team-member-role">Vice President</p>
-      </div>
-    </li>
-    <li class="team-member">
-      <div class="team-member-img-bg">
-        <picture>
-          <source
-            srcset="/115-bl9-bl10/assets/desk-marketing-head-CQ-XbtXl.jpg, /115-bl9-bl10/assets/desk-marketing-head@2-rvkchMUe.jpg 2x"
-            media="(min-width: 1360px)"
-            width="420"
-            height="280"
-          />
-          <source
-            srcset="/115-bl9-bl10/assets/tab-marketing-head-CBLYinHV.jpg, /115-bl9-bl10/assets/tab-marketing-head@2-BSRlP6jv.jpg 2x"
-            media="(min-width: 768px)"
-            width="223"
-            height="148"
-          />
-          <source
-            srcset="/115-bl9-bl10/assets/mob-marketing-head-Cg0QUbDe.jpg, /115-bl9-bl10/assets/mob-marketing-head@2-B9_Wf9Al.jpg 2x"
-            media="(max-width: 767px)"
-            width="280"
-            height="186"
-          />
-          <img
-            class="team-member-img"
-            src="/115-bl9-bl10/assets/mob-marketing-head-Cg0QUbDe.jpg"
-            alt="Marketing Head"
-          />
-        </picture>
-        <p class="team-member-overlay">social icons</p>
-      </div>
-      <div class="team-member-card">
-        <p class="team-member-name">Steve Smith</p>
-        <p class="team-member-role">Marketing Head</p>
-      </div>
-    </li>
-  </ul>
+        <div class="team-member-card">
+          <p class="team-member-name">John Doe</p>
+          <p class="team-member-role">President</p>
+        </div>
+      </li>
+      <li class="team-member">
+        <div class="team-member-img-bg">
+          <picture>
+            <source
+              srcset="/115-bl9-bl10/assets/desk-vice-president-BjA-NBLS.jpg, /115-bl9-bl10/assets/desk-vice-president@2-Agxs-lfV.jpg 2x"
+              media="(min-width: 1360px)"
+              width="420"
+              height="280"
+            />
+            <source
+              srcset="/115-bl9-bl10/assets/tab-vice-president-BT3IjVqL.jpg, /115-bl9-bl10/assets/tab-vice-president@2-CT9njGNH.jpg 2x"
+              media="(min-width: 768px)"
+              width="223"
+              height="148"
+            />
+            <source
+              srcset="/115-bl9-bl10/assets/mob-vice-president-D_W8BYli.jpg, /115-bl9-bl10/assets/mob-vice-president@2-CmIX2oEO.jpg 2x"
+              media="(max-width: 767px)"
+              width="280"
+              height="186"
+            />
+            <img
+              class="team-member-img"
+              src="/115-bl9-bl10/assets/mob-vice-president-D_W8BYli.jpg"
+              alt="Vice President"
+            />
+          </picture>
+          <div class="team-member-overlay">
+            <ul class="team-member-social-list">
+              <li class="team-member-social-icon">
+                <a href="">
+                  <svg height="35" width="35" class="social-icon-svg">
+                    <use href="/115-bl9-bl10/assets/social-CWY5Rgt1.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="team-member-social-icon">
+                <a href="">
+                  <svg height="35" width="35" class="social-icon-svg">
+                    <use href="/115-bl9-bl10/assets/social-CWY5Rgt1.svg#icon-twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="team-member-social-icon">
+                <a href="">
+                  <svg height="40" width="35" class="social-icon-svg">
+                    <use href="/115-bl9-bl10/assets/social-CWY5Rgt1.svg#icon-youtube"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="team-member-social-icon">
+                <a href="">
+                  <svg height="31" width="35" class="social-icon-svg">
+                    <use href="/115-bl9-bl10/assets/social-CWY5Rgt1.svg#icon-linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="team-member-card">
+          <p class="team-member-name">Jane Doe</p>
+          <p class="team-member-role">Vice President</p>
+        </div>
+      </li>
+      <li class="team-member">
+        <div class="team-member-img-bg">
+          <picture>
+            <source
+              srcset="/115-bl9-bl10/assets/desk-marketing-head-CQ-XbtXl.jpg, /115-bl9-bl10/assets/desk-marketing-head@2-rvkchMUe.jpg 2x"
+              media="(min-width: 1360px)"
+              width="420"
+              height="280"
+            />
+            <source
+              srcset="/115-bl9-bl10/assets/tab-marketing-head-CBLYinHV.jpg, /115-bl9-bl10/assets/tab-marketing-head@2-BSRlP6jv.jpg 2x"
+              media="(min-width: 768px)"
+              width="223"
+              height="148"
+            />
+            <source
+              srcset="/115-bl9-bl10/assets/mob-marketing-head-Cg0QUbDe.jpg, /115-bl9-bl10/assets/mob-marketing-head@2-B9_Wf9Al.jpg 2x"
+              media="(max-width: 767px)"
+              width="280"
+              height="186"
+            />
+            <img
+              class="team-member-img"
+              src="/115-bl9-bl10/assets/mob-marketing-head-Cg0QUbDe.jpg"
+              alt="Marketing Head"
+            />
+          </picture>
+          <div class="team-member-overlay">
+            <ul class="team-member-social-list">
+              <li class="team-member-social-icon">
+                <a href="">
+                  <svg height="35" width="35" class="social-icon-svg">
+                    <use href="/115-bl9-bl10/assets/social-CWY5Rgt1.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="team-member-social-icon">
+                <a href="">
+                  <svg height="35" width="35" class="social-icon-svg">
+                    <use href="/115-bl9-bl10/assets/social-CWY5Rgt1.svg#icon-twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="team-member-social-icon">
+                <a href="">
+                  <svg height="40" width="35" class="social-icon-svg">
+                    <use href="/115-bl9-bl10/assets/social-CWY5Rgt1.svg#icon-youtube"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="team-member-social-icon">
+                <a href="">
+                  <svg height="31" width="35" class="social-icon-svg">
+                    <use href="/115-bl9-bl10/assets/social-CWY5Rgt1.svg#icon-linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="team-member-card">
+          <p class="team-member-name">Steve Smith</p>
+          <p class="team-member-role">Marketing Head</p>
+        </div>
+      </li>
+    </ul>
+  </div>
 </section>
 
       <section class="callback">
-  <div class="container">
-    <div class="callback-picture-conatiner">
-      <picture>
+      <div class="div-call">
+           <picture>
         <source
+          srcset="/115-bl9-bl10/assets/desk-rectangle-Bm2GMtDa.jpg 1x, /115-bl9-bl10/assets/desk-rectangle@2-CaLY3ZZQ.jpg 2x"
           media="(min-width: 1360px)"
-          srcset="/115-bl9-bl10/assets/desk-callback-Bm2GMtDa.jpg 1x, /115-bl9-bl10/assets/desk-callback@2-CaLY3ZZQ.jpg 2x"
+          width="680"
+          height="460"
         />
         <source
+        srcset="/115-bl9-bl10/assets/tab-rectangle-DU_9ACXK.jpg 1x, /115-bl9-bl10/assets/tab-rectangle@2-BbbRzlkO.jpg 2x"
           media="(min-width: 768px)"
-          srcset="/115-bl9-bl10/assets/tab-callback-DU_9ACXK.jpg 1x, /115-bl9-bl10/assets/tab-callback@2-BbbRzlkO.jpg 2x"
+          width="384"
+          height="349"
         />
         <source
-          media="(max-width: 767.98px)"
-          srcset="/115-bl9-bl10/assets/mob-callback-Plz3ED9G.jpg 1x, /115-bl9-bl10/assets/mob-callback@2-k1MxJiPa.jpg 2x"
+        srcset="/115-bl9-bl10/assets/tel-rectangle-Plz3ED9G.jpg 1x, /115-bl9-bl10/assets/tel-rectangle@2-k1MxJiPa.jpg 2x"
+          media="(max-width: 767px)"
+          width="320"
+          height="220"
         />
         <img
-          src="/115-bl9-bl10/assets/mob-callback-Plz3ED9G.jpg"
-          alt="a man at the desk"
-        />
-      </picture>
-    </div>
-    <div class="callback-form-container">
-      <p class="callback-form-paragraph">Request Callback</p>
-      <form class="callback-form">
-        <div class="form-wrapper-container">
-          <input
-            class="form-user-input"
-            type="text"
-            id="user-name"
-            name="user-name"
-            placeholder="Enter your name"
-            pattern="[a-zA-Z-яА-ЯіІїЇєЄґҐʼ]+"
-          />
-          <input
-            class="form-user-input"
-            type="email"
-            id="form-user-email"
-            name="user-email"
-            placeholder="Enter email*"
-            required
-          />
-        </div>
-        <button type="submit" class="form-button">Send</button>
-      </form>
-    </div>
+        src="/115-bl9-bl10/assets/tel-rectangle-Plz3ED9G.jpg"
+        alt="Request Callback"
+      />
+      </picture> 
   </div>
+      <form class="form">
+        <div class="form-div">
+          <h2 class="call-h">Request Callback</h2>
+        </div>
+        <div class="input-lb">
+          <label for="name" class="label-name">
+            <input type="text" id="name" placeholder="Enter your name" name="name">
+          </label>
+          <label for="email" class="label-email">
+            <input type="email" id="email" class="email-marg" placeholder="Enter email*" name="email">
+          </label>
+        </div>
+        <div class="btn-div"><button type="submit" class="btn">Send</button></div>
+      </form>
 </section>
 
     </main>
