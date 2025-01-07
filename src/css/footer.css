@@ -1,3 +1,123 @@
+/* Общие стили */
 .footer {
-  background-color: #c6ffd2;
+  background: #333;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.footer-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  text-align: center;
+}
+
+.footer-lu {
+  display: flex;
+  gap: 25px;
+  list-style: none;
+  margin: 10px 0;
+  padding: 0;
+  
+}
+
+.footer-a {
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: color 0.3s ease;
+}
+
+.footer-a:hover {
+  color: #4d5ae5;
+}
+
+.footer-svg {
+  fill: #fff;
+  transition: fill 0.3s ease;
+  
+}
+
+.footer-a:hover .footer-svg {
+  fill: #4d5ae5;
+}
+
+.footer-p {
+  margin-top: 9px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+/* Мобильные (от 320px до 767px) */
+@media screen and (max-width: 767px) {
+  .footer {
+    padding: 15px 10px;
+  }
+
+  .footer-lu {
+    gap: 15px;
+    
+  }
+
+  .footer-a {
+    font-size: 14px;
+  }
+
+  .footer-svg {
+    width: 25px;
+    height: 25px;
+    
+  }
+
+  .footer-p {
+    font-size: 12px;
+  }
+}
+
+/* Планшеты (от 768px до 1157px) */
+@media screen and (min-width: 768px) and (max-width: 1157px) {
+  .footer {
+    padding: 20px 30px;
+  }
+
+  .footer-lu {
+    flex-direction: row;
+    gap: 25px;
+  }
+
+  .footer-svg {
+    width: 30px;
+    height: 30px;
+  }
+
+  .footer-p {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+}
+
+/* Ноутбук (от 1158px) */
+@media screen and (min-width: 1158px) {
+  .footer {
+    padding: 30px 50px;
+  }
+
+  .footer-lu {
+    gap: 25px;
+  }
+
+  .footer-svg {
+    width: 35px;
+    height: 35px;
+  }
+
+  .footer-p {
+    font-size: 16px;
+  }
 }
