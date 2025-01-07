@@ -111,6 +111,7 @@ a {
   }
   .nav-list {
     gap: 18px;
+    margin-top: 0px;
   }
   .nav-link {
     font-family: 'Open Sans', sans-serif;
