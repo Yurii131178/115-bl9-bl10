@@ -1,7 +1,6 @@
 * {
   font-family: 'Open Sans', sans-serif;
-  color: #fff;
-}
+  }
 .wrapper {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url(../img/header-background/header_background_mobile@1x.jpg);
