@@ -3,6 +3,7 @@
 }
 
 .team {
+  color: #000;
   background-color: #fff;
   display: flex;
   flex-wrap: wrap;
